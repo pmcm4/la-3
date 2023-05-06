@@ -357,6 +357,25 @@
   left: 0;
   opacity: 1;
   visibility: visible;
+  width: 1000px;
+}
+@media (max-width: 1669px) {
+  .loginbtn {
+    height: 30px;
+    border-radius: 10px;
+    background-color: #ffb800;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    right: 290px;
+    transition: transform 0.2s;
+  }
+  .loginbtn:hover {
+    transform: scale(1.2);
+  }
 }
 
 @media (max-width: 1366px) {
