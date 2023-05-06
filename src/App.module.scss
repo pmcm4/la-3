@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
 }
 
 .App-logo {
@@ -34,5 +38,910 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 0px;
+}
+.content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 800px;
+}
+.footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+.bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+}
+.logo {
+  width: 150px;
+  height: 150px;
+  padding-left: 30px;
+  cursor: pointer;
+  transition: .2s;
+}
+.logo:hover {
+  transform: scale(1.2);
+}
+.body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0);
+  justify-content: space-between;
+}
+.backgroundImage {
+  background-image: url(https://res.cloudinary.com/dgb2lnz2i/image/upload/v1683279465/Leonardo_Diffusion_A_majestic_3Drendered_scene_of_a_mountain_r_1_tthn82.jpg);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+  width: auto;
+  height: auto;
+}
+.navBar {
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.navBar:hover {
+  transform: scale(1.2);
+}
+.iconsea{
+  transition: .2s;
+}
+.iconsea:hover{
+  transform: scale(1.2);
+}
+.menuItems {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+  position: relative;
+}
+
+.loginbtn {
+  height: 30px;
+  border-radius: 10px;
+  background-color: #ffb800;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  right: 500px;
+  transition: transform 0.2s;
+}
+.loginbtn:hover {
+  transform: scale(1.2);
+}
+
+.heading {
+  color: white;
+  width: 500px;
+  font-size: 40px;
+  display: flex;
+}
+.p1p {
+  color: white;
+  line-height: 30px;
+  flex-direction: row;
+  align-items: start;
+  justify-items: start;
+  text-align: start;
+  font-size: 22px;
+}
+.pGroup {
+  flex-direction: column;
+  align-items: start;
+  width: 400px;
+  position: relative;
+  bottom: 50px;
+}
+.tryNow {
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: #ffb800;
+  border: none;
+  font-size: 18px;
+  position: relative;
+  cursor: pointer;
+  bottom: 50px;
+  transition: transform 0.2s;
+}
+.tryNow:hover {
+  transform: scale(1.2);
+}
+.logoFoot {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.siteMap {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.subs {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  justify-items: center;
+}
+.logoFooter {
+  height: 200px;
+  width: 200px;
+}
+.footSiteMap {
+  color: white;
+  display: flex;
+  font-size: 20px;
+  width: 92px;
+}
+.FootP {
+  color: white;
+  display: flex;
+}
+.siteMapItems {
+  color: white;
+  font-size: 18px;
+  text-align: start;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.siteMapItems:hover {
+  transform: scale(1.2);
+}
+
+
+.emailadd {
+  height: 30px;
+  background-color: rgba(128, 128, 128, 0.32);
+  color: white;
+  border: none;
+}
+
+.emailadd::placeholder {
+  color: white;
+}
+.icons {
+  height: 50px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+.esub {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 300px;
+  align-content: center;
+  justify-content: center;
+  gap: 10px;
+}
+.btnAdd {
+  height: 30px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: #ffb800;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btnAdd:hover {
+  transform: scale(1.1);
+}
+
+.container2 {
+  position: relative;
+  width: 600px;
+  height: 300px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  transition: 0.5s;
+  align-content: space-between;
+  justify-content: space-between;
+}
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.circle::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  clip-path: circle(130px at center);
+  transition: 0.5s;
+}
+.container2:hover .circle::before {
+  background-color: black;
+  clip-path: circle(480px at center);
+}
+
+.imgrd {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.container2:hover .imgrd {
+  left: 72%;
+  width: 450px;
+  height: 450px;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0);
+  width: 500px;
+  height: 300px;
+  flex-direction: column;
+  align-items: start;
+  display: flex;
+  position: relative;
+  justify-items: start;
+  padding-left: 20px;
+  position: relative;
+  width: 50%;
+  left: 20%;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: visible;
+  justify-content: space-between;
+  align-content: center;
+}
+.container:hover {
+  left: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 1366px) {
+  .loginbtn {
+    height: 30px;
+    border-radius: 10px;
+    background-color: #ffb800;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    right: 100px;
+    transition: transform 0.2s;
+  }
+  .loginbtn:hover {
+    transform: scale(1.2);
+  }
+}
+
+@media (max-width: 936px) {
+  .loginbtn {
+    height: 30px;
+    border-radius: 10px;
+    background-color: #ffb800;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    right: 50px;
+    transition: transform 0.2s;
+  }
+  .loginbtn:hover {
+    transform: scale(1.2);
+  }
+}
+@media (max-width: 860px) {
+  .container2 {
+    width: auto;
+    max-width: 350px;
+    align-items: flex-start;
+  }
+  .container2:hover {
+    height: 600px;
+  }
+  .container {
+    width: 100%;
+    left: 0;
+    padding: 40px;
+  }
+
+  .container2:hover .imgrd {
+    top: 80%;
+    left: 50%;
+  }
+
+  .loginbtn {
+    height: 30px;
+    border-radius: 10px;
+    background-color: #ffb800;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    right: 10px;
+    transition: transform 0.2s;
+  }
+  .loginbtn:hover {
+    transform: scale(1.2);
+  }
+
+  .navBar {
+    font-size: 21px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .navBar:hover {
+    transform: scale(1.2);
+  }
+
+  .logoFoot {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  .siteMap {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+  .subs {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+  }
+  .logoFooter {
+    height: 200px;
+    width: 200px;
+  }
+  .footSiteMap {
+    color: white;
+    display: flex;
+    font-size: 20px;
+    width: 92px;
+  }
+  .FootP {
+    color: white;
+    display: flex;
+  }
+  .siteMapItems {
+    color: white;
+    font-size: 18px;
+    text-align: start;
+  }
+  .emailadd {
+    height: 30px;
+    background-color: rgba(128, 128, 128, 0.32);
+    color: white;
+    border: none;
+  }
+
+  .emailadd::placeholder {
+    color: white;
+  }
+  .icons {
+    height: 50px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+  }
+  .esub {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 180px;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .btnAdd {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #ffb800;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+}
+
+@media (max-width: 692px) {
+  .container2 {
+    width: auto;
+    max-width: 350px;
+    align-items: flex-start;
+  }
+  .container2:hover {
+    height: 600px;
+  }
+  .container {
+    width: 100%;
+    left: 0;
+    padding: 40px;
+  }
+
+  .container2:hover .imgrd {
+    top: 80%;
+    left: 50%;
+  }
+
+  .loginbtn {
+    height: 30px;
+    border-radius: 10px;
+    background-color: #ffb800;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    right: 10px;
+    transition: transform 0.2s;
+  }
+  .loginbtn:hover {
+    transform: scale(1.2);
+  }
+
+  .navBar {
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .navBar:hover {
+    transform: scale(1.2);
+  }
+
+  .logoFoot {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  .siteMap {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+  .subs {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+  }
+  .logoFooter {
+    height: 200px;
+    width: 200px;
+  }
+  .footSiteMap {
+    color: white;
+    display: flex;
+    font-size: 20px;
+    width: 92px;
+  }
+  .FootP {
+    color: white;
+    display: flex;
+  }
+  .siteMapItems {
+    color: white;
+    font-size: 18px;
+    text-align: start;
+  }
+  .emailadd {
+    height: 30px;
+    background-color: rgba(128, 128, 128, 0.32);
+    color: white;
+    border: none;
+  }
+
+  .emailadd::placeholder {
+    color: white;
+  }
+  .icons {
+    height: 50px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+  }
+  .esub {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 180px;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .btnAdd {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #ffb800;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+}
+
+@media (max-width: 642px) {
+  .navBar {
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+}
+@media (max-width: 600px) {
+  .container2 {
+    width: auto;
+    max-width: 350px;
+    align-items: flex-start;
+  }
+  .container2:hover {
+    height: 600px;
+  }
+  .container {
+    width: 100%;
+    left: 0;
+    padding: 40px;
+  }
+
+  .container2:hover .imgrd {
+    top: 80%;
+    left: 50%;
+  }
+
+  .loginbtn {
+    height: 30px;
+    border-radius: 10px;
+    background-color: #ffb800;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    right: 10px;
+    transition: transform 0.2s;
+  }
+  .loginbtn:hover {
+    transform: scale(1.2);
+  }
+
+  .navBar {
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .navBar:hover {
+    transform: scale(1.2);
+  }
+
+  .logoFoot {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  .siteMap {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+  .subs {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+  }
+  .logoFooter {
+    height: 200px;
+    width: 200px;
+  }
+  .footSiteMap {
+    color: white;
+    display: flex;
+    font-size: 20px;
+    width: 92px;
+  }
+  .FootP {
+    color: white;
+    display: flex;
+  }
+  .siteMapItems {
+    color: white;
+    font-size: 18px;
+    text-align: start;
+  }
+  .emailadd {
+    height: 30px;
+    background-color: rgba(128, 128, 128, 0.32);
+    color: white;
+    border: none;
+  }
+
+  .emailadd::placeholder {
+    color: white;
+  }
+  .icons {
+    height: 50px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+  }
+  .esub {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 180px;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .btnAdd {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #ffb800;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+}
+
+@media (max-width: 553px) {
+  .loginbtn {
+    height: 30px;
+    border-radius: 10px;
+    background-color: #ffb800;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    right: 30px;
+    transition: transform 0.2s;
+  }
+  .loginbtn:hover {
+    transform: scale(1.2);
+  }
+
+  .navBar {
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .navBar:hover {
+    transform: scale(1.2);
+  }
+
+  .logoFoot {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  .siteMap {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+  .subs {
+    width: 100px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+  }
+  .logoFooter {
+    height: 200px;
+    width: 200px;
+  }
+  .footSiteMap {
+    color: white;
+    display: flex;
+    font-size: 20px;
+    width: 92px;
+  }
+  .FootP {
+    color: white;
+    display: flex;
+  }
+  .siteMapItems {
+    color: white;
+    font-size: 18px;
+    text-align: start;
+  }
+  .emailadd {
+    height: 30px;
+    background-color: rgba(128, 128, 128, 0.32);
+    color: white;
+    border: none;
+  }
+
+  .emailadd::placeholder {
+    color: white;
+  }
+  .iconsea{
+    width: 20px;
+  }
+  .icons {
+    height: 20px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+
+  }
+  .esub {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 80px;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+    
+  }
+  .emailadd::placeholder {
+    color: white;
+    font-size: 10px;
+  }
+  .btnAdd {
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: #ffb800;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 12px;
+  }
+  .header {
+    width: 100%;
+    height: 100px;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0px;
+  }
+  .menuItems {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
   }
 }
