@@ -72,10 +72,10 @@ function App() {
                             <button className={styles.btnAdd}>SUBSCRIBE</button>
                         </div>
                         <div className={styles.icons}>
-                           <FacebookIcon fontSize="large" sx={{ color: 'white', cursor:'pointer'}} className={styles.iconsea}/>
-                            <InstagramIcon fontSize="large" sx={{ color: 'white', cursor:'pointer'  }} className={styles.iconsea}/>
-                            <TwitterIcon fontSize="large" sx={{ color: 'white', cursor:'pointer'  }} className={styles.iconsea}/>
-                            <EmailIcon fontSize="large" sx={{ color: 'white', cursor:'pointer'  }} className={styles.iconsea}/>
+                           <FacebookIcon fontSize="large" sx={{ color: 'white', cursor:'pointer'}} className={styles.iconseaa}/>
+                            <InstagramIcon fontSize="large" sx={{ color: 'white', cursor:'pointer'  }} className={styles.iconseaa}/>
+                            <TwitterIcon fontSize="large" sx={{ color: 'white', cursor:'pointer'  }} className={styles.iconseaa}/>
+                            <EmailIcon fontSize="large" sx={{ color: 'white', cursor:'pointer'  }} className={styles.iconseaa}/>
                         </div>
                     </div>
                 </div>
