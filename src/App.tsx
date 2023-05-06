@@ -12,6 +12,7 @@ function App() {
                     <img
                         src="https://res.cloudinary.com/dgb2lnz2i/image/upload/v1683338803/i_miss_you_logo_copy_nzz7vt.png"
                         className={styles.logo}
+                        alt='imylogo'
                     />
                     <div className={styles.menuItems}>
                         <span className={styles.navBar}>Menu</span>
@@ -40,6 +41,7 @@ function App() {
                         <img
                             src="https://res.cloudinary.com/dgb2lnz2i/image/upload/v1683344331/just-reposting-some-cute-stuff-_-whatever-not-mine_ehoh2a.gif"
                             className={styles.imgrd}
+                            alt='hahah'
                         />
                     </div>
                 </div>
@@ -48,6 +50,7 @@ function App() {
                         <img
                             src="https://res.cloudinary.com/dgb2lnz2i/image/upload/v1683338803/i_miss_you_logo_copy_nzz7vt.png"
                             className={styles.logoFooter}
+                            alt='aaaa'
                         />
                     </div>
                     <div className={styles.siteMap}>
